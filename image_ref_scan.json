@@ -1,0 +1,537 @@
+{
+  "public_files": [
+    "public/A4Tech-Logo-1536x337.webp",
+    "public/AMAZE-LOGO.jpg",
+    "public/Amaze-A650-Dark-Grey-300x300.webp",
+    "public/Amaze-A655-300x300.webp",
+    "public/Amaze-A712a-300x300.webp",
+    "public/Amaze-A715-1-300x300.webp",
+    "public/Amaze-A720-1-300x300.webp",
+    "public/Amaze-A725-1-300x300.webp",
+    "public/Amazfit-Bip-Max-300x300.webp",
+    "public/Amazon-Kindle-Paperwhite-12th-Gen-300x300.webp",
+    "public/Anker-A110B-300x300.webp",
+    "public/Anker-A1637-300x300.webp",
+    "public/Anker-A1688-Black-300x300.webp",
+    "public/Anker-Soundcore-C40i-Black-300x300.webp",
+    "public/Apple-iPhone-16-Black-1-300x300.webp",
+    "public/Apple-iPhone-16-Black-1.webp",
+    "public/Apple-iPhone-16-Ultramarine.webp",
+    "public/Apple-iPhone-16e-256-GB-300x300.jpg",
+    "public/Apple-iPhone-17-Air-Black-300x300.webp",
+    "public/Apple-iPhone-17-Black-300x300.webp",
+    "public/Apple-iPhone-17-Pro-Max-Blue-300x300.webp",
+    "public/Apple-iPhone-17-Pro-Orange-300x300.webp",
+    "public/Aurafit-ELLA-3-AM28-300x300.webp",
+    "public/Baseus-AeQur-Series-VO20-Bluetooth-Speaker-300x300.webp",
+    "public/Baseus-Blade-Power-Bank-HD-Edition-20000mAh-100W-300x300.webp",
+    "public/Baseus-logo.webp",
+    "public/Belkin_logo-1536x422.webp",
+    "public/Benks_logo_5.webp",
+    "public/Buds-FE-1-300x300.webp",
+    "public/CMF-Nothing-Headphones-Pro-300x300.webp",
+    "public/CUBEiPhone16ProMax_12_1024x1024-300x300.webp",
+    "public/Chanel-Logo-1536x1024.png",
+    "public/ChoeTech.webp",
+    "public/DJI-Osmo-Mobile-7P-Gimbal-300x300.webp",
+    "public/Dyson-logo-1536x647.webp",
+    "public/GoPro-Logo-e1743213461890.png",
+    "public/HOCO-EQ22-300x300.webp",
+    "public/HOCO-EQ5-300x300.jpg",
+    "public/HUAWEI-Band-11-Black-300x300.webp",
+    "public/HUAWEI-Watch-Fit-5-Pro-300x300.webp",
+    "public/HaylouSolarUltraSmartWatch-Black-300x300.webp",
+    "public/Haylou_logo-1.webp",
+    "public/Hifuture_logo-black-1536x331.webp",
+    "public/Huawei-Watch-Fit-5-1-300x300.webp",
+    "public/Imilab-1-1.webp",
+    "public/Insta360_logo-1536x465.png",
+    "public/JBL-Tune-520-Black-300x300.webp",
+    "public/Kospet.webp",
+    "public/Logitech-Z625-1-300x300-1.webp",
+    "public/MCDODO-MC-5021-20000MAH-20W-MAGNETIC-WIRELESS-POWER-BANK-1-xcessorieshub-300x300-1.webp",
+    "public/Mibro-Watch-C4-300x300.webp",
+    "public/OnePlus-Watch-4-300x300.webp",
+    "public/Oneplus_newlogo_main_1584369675960-1-1.webp",
+    "public/Oraimo-FreePods-Lite-True-Wireless-Earbuds-OTW-330-xhb-blue-300x300.webp",
+    "public/QCY-Heroad-V200-300x300.webp",
+    "public/Realme-Buds-Clip-Black-300x300.webp",
+    "public/Realme-Buds-T500-Pro-Chocolate-300x300.webp",
+    "public/Redmi-13-Black-300x300.webp",
+    "public/Redmi-14C-6GB-128GB-Midnight-Black-300x300.webp",
+    "public/Redmi-A3-Black-300x300.webp",
+    "public/Redmi-A5-Black-300x300 (1).webp",
+    "public/Redmi-A5-Black-300x300.webp",
+    "public/Redmi-Buds-8-Black-300x300.webp",
+    "public/Redmi-Note-13-Black-300x300.webp",
+    "public/Redmi-Note-13-Pro-Black-300x300.webp",
+    "public/Redmi-Note-14-Black-300x300.webp",
+    "public/Redmi-Note-14-Pro-5G-Black-300x300.webp",
+    "public/Redmi-Note-14-Pro-Black-300x300.jpg",
+    "public/RedmiBuds6Lite-300x300.webp",
+    "public/S3342980b282d4832b05fabeb58e0da10J-1.webp",
+    "public/SAMSUNG-Galaxy-Buds-3-Pro-300x300.webp",
+    "public/Samsung-Galaxy-S25-Ultra-300x300.webp",
+    "public/Samsung-Galaxy-Tab-S10-WiFi-with-Keyboard-Cover-300x300.webp",
+    "public/Screenshot-2024-05-13-at-12.32.17-AM.webp",
+    "public/Screenshot-2024-06-15-at-3.44.55\u202fPM-1536x440.png",
+    "public/Screenshot_2025-10-25-00-45-12-14_6012fa4d4ddec268fc5c7112cbb265e7-461x1024.jpg",
+    "public/Skullcandy-Riff-2-300x300.webp",
+    "public/Soundpeats-Space-Pro-300x300.webp",
+    "public/Soundpeats-T3-Pro-ANC-Bluetooth-Earbuds-300x300.webp",
+    "public/TORRAS-Ostand-Q3-Air-Series-Case-iPhone-17-Pro-Orange-300x300.webp",
+    "public/Tronsmart-Q20S-600x600.webp",
+    "public/UGREEN-45278-300x300.webp",
+    "public/UGREEN-\u2013-50567-300x300.webp",
+    "public/UGreen-Logo.png-1536x437.webp",
+    "public/Ugreen-20192-300x300.webp",
+    "public/Ugreen-35345-300x300.webp",
+    "public/Ugreen-GAN-Fast-Charger-1C-20W-Black-300x300.webp",
+    "public/WIWU-Elite-Backpack-Black-300x300.webp",
+    "public/WIWU-Minimalist-Laptop-Bag-II-Black-300x300.webp",
+    "public/WIWU-Smart-Stand-Sleeve-300x300.jpg",
+    "public/WiWU-Cozy-Classic-Black-300x300.webp",
+    "public/WiWU-Defender-Pro-Sleeve-300x300.webp",
+    "public/WiWU-Pilot-Sleeve-Black-300x300.webp",
+    "public/WiWU-Skin-Zero-Sleeve-Black-300x300.webp",
+    "public/Wiwu-Blade-Sleeve-Black-300x300.webp",
+    "public/Wiwu-City-Commuter-Bag-300x300.webp",
+    "public/Wiwu-Skin-Pro-3-PU-Leather-Sleeve-300x300.webp",
+    "public/Wiwu-Vivi-Laptop-Bag-Black-300x300.webp",
+    "public/Xiaomi-14T-12GB-512GB-black-300x300.webp",
+    "public/Xiaomi-14T-Pro-12GB-512GB-black-300x300.webp",
+    "public/Xiaomi-15-Ultra-300x300.webp",
+    "public/Xiaomi-Buds-6-1-300x300.webp",
+    "public/Xiaomi-MIX-Flip-300x300.webp",
+    "public/Xiaomi-TV-Box-S-2nd-Gen-4K-Ultra-HD-1-1-300x300.webp",
+    "public/Xiaomi-Watch-S5-Black-300x300.webp",
+    "public/Xiaomi-logo-scaled-e1743214282864-1536x422.webp",
+    "public/Yolo-Focus-Heaphone-Y-511-Black-300x300.webp",
+    "public/Yolo-Nirvana-Headphone-Y-512-Black-300x300.webp",
+    "public/Yolo-Vogue-Headphone-Y-510-Black-300x300.webp",
+    "public/Youksh-iP17-Air-Lens-Protector-Black-300x300.webp",
+    "public/Youksh-iP17-Lens-Protector-Black-300x300.webp",
+    "public/Youksh-iP17-Pro-Lens-Protector-Blue-300x300.webp",
+    "public/amaze_banner-scaled.webp",
+    "public/amband.webp",
+    "public/amezefitlogo.webp",
+    "public/anker-logo.webp",
+    "public/ankerlogo.webp",
+    "public/apple.jpg",
+    "public/baseuslogo.webp",
+    "public/bloody.webp",
+    "public/boya.webp",
+    "public/dior.png",
+    "public/dizo.webp",
+    "public/dji-logo-black-and-white.png",
+    "public/download-11-1.webp",
+    "public/download-14-1.webp",
+    "public/download-28-1.webp",
+    "public/download-33-1.webp",
+    "public/download-34-2.webp",
+    "public/download-36-1.webp",
+    "public/download-37-1.webp",
+    "public/download-39-1.webp",
+    "public/download-41-1.webp",
+    "public/download-43-1.webp",
+    "public/download-45-1.webp",
+    "public/download-47-1.webp",
+    "public/download-58-2.webp",
+    "public/download-60-1.webp",
+    "public/download.png",
+    "public/earfun_logo.png",
+    "public/elago.webp",
+    "public/esr_logo.webp",
+    "public/fblogo.png",
+    "public/feedback.webp",
+    "public/fragrance-one.avif",
+    "public/iPhone-16-Pro-Desert-Titanium-1-300x300.webp",
+    "public/images-removebg-preview (2).png",
+    "public/jabra-logo-1.webp",
+    "public/jbl logo.png",
+    "public/jbllogo.webp",
+    "public/jisulife-1536x407.webp",
+    "public/logo-1536x327.png",
+    "public/loss.webp",
+    "public/mcdodo_uk_logo.webp",
+    "public/metalogo.webp",
+    "public/pitaka-logo-e1743214379641-1536x330.webp",
+    "public/purchase.webp",
+    "public/realmelogo.webp",
+    "public/redmi-a3x-Mistore_grande-300x300.webp",
+    "public/refresh.webp",
+    "public/samsung-logo-e1743213906540-1536x310.webp",
+    "public/samsunglogo.webp",
+    "public/scared-of.webp",
+    "public/sspic.jpg",
+    "public/tws-black_1920x_4_4027e963-7e73-4ec7-8e9e-2236a71d7fb0_1920x-300x300.webp",
+    "public/user.jpg",
+    "public/vite.svg",
+    "public/watch-6-classic-47-600x600-1-300x300.webp",
+    "public/watch-wrist.webp"
+  ],
+  "references": {
+    "src/Brand.jsx": [
+      {
+        "ref": "\"public\\amezefitlogo.webp",
+        "norm": "\"public/amezefitlogo.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Screenshot-2024-05-13-at-12.32.17-AM.webp",
+        "norm": "\"public/Screenshot-2024-05-13-at-12.32.17-AM.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Screenshot-2024-06-15-at-3.44.55\u202fPM-1536x440.png",
+        "norm": "\"public/Screenshot-2024-06-15-at-3.44.55\u202fPM-1536x440.png",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\AMAZE-LOGO.jpg",
+        "norm": "\"public/AMAZE-LOGO.jpg",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\A4Tech-Logo-1536x337.webp",
+        "norm": "\"public/A4Tech-Logo-1536x337.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\download-45-1.webp",
+        "norm": "\"public/download-45-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\amband.webp",
+        "norm": "\"public/amband.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\ankerlogo.webp",
+        "norm": "\"public/ankerlogo.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\download-14-1.webp",
+        "norm": "\"public/download-14-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\download-43-1.webp",
+        "norm": "\"public/download-43-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Baseus-logo.webp",
+        "norm": "\"public/Baseus-logo.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\download-47-1.webp",
+        "norm": "\"public/download-47-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Belkin_logo-1536x422.webp",
+        "norm": "\"public/Belkin_logo-1536x422.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Benks_logo_5.webp",
+        "norm": "\"public/Benks_logo_5.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\bloody.webp",
+        "norm": "\"public/bloody.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\dior.png",
+        "norm": "\"public/dior.png",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\dizo.webp",
+        "norm": "\"public/dizo.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\dji-logo-black-and-white.png",
+        "norm": "\"public/dji-logo-black-and-white.png",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Dyson-logo-1536x647.webp",
+        "norm": "\"public/Dyson-logo-1536x647.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\earfun_logo.png",
+        "norm": "\"public/earfun_logo.png",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\logo-1536x327.png",
+        "norm": "\"public/logo-1536x327.png",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\elago.webp",
+        "norm": "\"public/elago.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\download-37-1.webp",
+        "norm": "\"public/download-37-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\esr_logo.webp",
+        "norm": "\"public/esr_logo.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\fragrance-one.avif",
+        "norm": "\"public/fragrance-one.avif",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\download-36-1.webp",
+        "norm": "\"public/download-36-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\GoPro-Logo-e1743213461890.png",
+        "norm": "\"public/GoPro-Logo-e1743213461890.png",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\download-34-2.webp",
+        "norm": "\"public/download-34-2.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Haylou_logo-1.webp",
+        "norm": "\"public/Haylou_logo-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Hifuture_logo-black-1536x331.webp",
+        "norm": "\"public/Hifuture_logo-black-1536x331.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\download-33-1.webp",
+        "norm": "\"public/download-33-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Imilab-1-1.webp",
+        "norm": "\"public/Imilab-1-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Insta360_logo-1536x465.png",
+        "norm": "\"public/Insta360_logo-1536x465.png",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\jabra-logo-1.webp",
+        "norm": "\"public/jabra-logo-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\jbllogo.webp",
+        "norm": "\"public/jbllogo.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\download-58-2.webp",
+        "norm": "\"public/download-58-2.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\samsunglogo.webp",
+        "norm": "\"public/samsunglogo.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Oneplus_newlogo_main_1584369675960-1-1.webp",
+        "norm": "\"public/Oneplus_newlogo_main_1584369675960-1-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\realmelogo.webp",
+        "norm": "\"public/realmelogo.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\metalogo.webp",
+        "norm": "\"public/metalogo.webp",
+        "exists": false
+      }
+    ],
+    "src/Offer.jsx": [
+      {
+        "ref": "\"public\\amaze_banner-scaled.webp",
+        "norm": "\"public/amaze_banner-scaled.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\purchase.webp",
+        "norm": "\"public/purchase.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\feedback.webp",
+        "norm": "\"public/feedback.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\refresh.webp",
+        "norm": "\"public/refresh.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\loss.webp",
+        "norm": "\"public/loss.webp",
+        "exists": false
+      }
+    ],
+    "src/Review.jsx": [
+      {
+        "ref": "\"public\\user.jpg",
+        "norm": "\"public/user.jpg",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Screenshot_2025-10-25-00-45-12-14_6012fa4d4ddec268fc5c7112cbb265e7-461x1024.jpg\"\n          alt=\"Review\"\n          className=\"w-24 h-24 object-cover rounded-md border\"\n        />\n      </div>\n\n      {/* Divider */}\n      <hr className=\"mt-6 border-gray-200\" />\n</div>\n\n    <div className=\"bg-white  rounded-lg shadow-sm p-6 max-w-5xl mx-auto mt-5 mb-5\">\n      {/* Header */}\n      <div className=\"flex justify-between items-start\">\n        <div className=\"flex items-start space-x-4\">\n          {/* User Image */}\n          <img\n            src=\"public\\user.jpg",
+        "norm": "\"public/Screenshot_2025-10-25-00-45-12-14_6012fa4d4ddec268fc5c7112cbb265e7-461x1024.jpg\"\n          alt=\"Review\"\n          className=\"w-24 h-24 object-cover rounded-md border\"\n        />\n      </div>\n\n      {/* Divider */}\n      <hr className=\"mt-6 border-gray-200\" />\n</div>\n\n    <div className=\"bg-white  rounded-lg shadow-sm p-6 max-w-5xl mx-auto mt-5 mb-5\">\n      {/* Header */}\n      <div className=\"flex justify-between items-start\">\n        <div className=\"flex items-start space-x-4\">\n          {/* User Image */}\n          <img\n            src=\"public/user.jpg",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\sspic.jpg",
+        "norm": "\"public/sspic.jpg",
+        "exists": false
+      }
+    ],
+    "src/Say.jsx": [
+      {
+        "ref": "\"public\\scared-of.webp",
+        "norm": "\"public/scared-of.webp",
+        "exists": false
+      }
+    ],
+    "src/Sbrand.jsx": [
+      {
+        "ref": "\"public\\anker-logo.webp",
+        "norm": "\"public/anker-logo.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\A4Tech-Logo-1536x337.webp",
+        "norm": "\"public/A4Tech-Logo-1536x337.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Baseus-logo.webp",
+        "norm": "\"public/Baseus-logo.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\apple.jpg",
+        "norm": "\"public/apple.jpg",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\boya.webp",
+        "norm": "\"public/boya.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\jisulife-1536x407.webp",
+        "norm": "\"public/jisulife-1536x407.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\mcdodo_uk_logo.webp",
+        "norm": "\"public/mcdodo_uk_logo.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\pitaka-logo-e1743214379641-1536x330.webp",
+        "norm": "\"public/pitaka-logo-e1743214379641-1536x330.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\samsung-logo-e1743213906540-1536x310.webp",
+        "norm": "\"public/samsung-logo-e1743213906540-1536x310.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\UGreen-Logo.png-1536x437.webp",
+        "norm": "\"public/UGreen-Logo.png-1536x437.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\jbl logo.png",
+        "norm": "\"public/jbl logo.png",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Xiaomi-logo-scaled-e1743214282864-1536x422.webp",
+        "norm": "\"public/Xiaomi-logo-scaled-e1743214282864-1536x422.webp",
+        "exists": false
+      }
+    ],
+    "src/Showbar.jsx": [
+      {
+        "ref": "\"public\\Apple-iPhone-16-Ultramarine.webp",
+        "norm": "\"public/Apple-iPhone-16-Ultramarine.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Oraimo-FreePods-Lite-True-Wireless-Earbuds-OTW-330-xhb-blue-300x300.webp",
+        "norm": "\"public/Oraimo-FreePods-Lite-True-Wireless-Earbuds-OTW-330-xhb-blue-300x300.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Mibro-Watch-C4-300x300.webp",
+        "norm": "\"public/Mibro-Watch-C4-300x300.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\MCDODO-MC-5021-20000MAH-20W-MAGNETIC-WIRELESS-POWER-BANK-1-xcessorieshub-300x300-1.webp",
+        "norm": "\"public/MCDODO-MC-5021-20000MAH-20W-MAGNETIC-WIRELESS-POWER-BANK-1-xcessorieshub-300x300-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\UGREEN-\u2013-50567-300x300.webp",
+        "norm": "\"public/UGREEN-\u2013-50567-300x300.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Soundpeats-Space-Pro-300x300.webp",
+        "norm": "\"public/Soundpeats-Space-Pro-300x300.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Logitech-Z625-1-300x300-1.webp",
+        "norm": "\"public/Logitech-Z625-1-300x300-1.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Samsung-Galaxy-Tab-S10-WiFi-with-Keyboard-Cover-300x300.webp",
+        "norm": "\"public/Samsung-Galaxy-Tab-S10-WiFi-with-Keyboard-Cover-300x300.webp",
+        "exists": false
+      },
+      {
+        "ref": "\"public\\Ugreen-GAN-Fast-Charger-1C-20W-Black-300x300.webp",
+        "norm": "\"public/Ugreen-GAN-Fast-Charger-1C-20W-Black-300x300.webp",
+        "exists": false
+      }
+    ]
+  }
+}

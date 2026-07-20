@@ -2,6 +2,7 @@ import React from 'react'
 
 
 const Cards = ({pic,detail,price,button}) => {
+  const imageSrc = pic || 'data:image/gif;base64,R0lGODlhAQABAAAAACw=';
   return (
     <>
     <div className='mt-13'>
@@ -9,7 +10,7 @@ const Cards = ({pic,detail,price,button}) => {
   
 
   
-  <img src={pic} alt="Soundpeats T3 Pro ANC" class="w-45 h-55 mx-auto object-contain" />
+  <img src={imageSrc} alt={detail || "Product image"} className="w-45 h-55 mx-auto object-contain" />
 <div className='w-60 h-15 border-amber-950 text-center'>
   
   <h3 className="mt-4 text-lg font-semibold text-slate-800 leading-tight">

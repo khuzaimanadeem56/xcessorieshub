@@ -12,22 +12,22 @@ const Speakers = () => {
         </div>
     <div className='flex justify-center gap-10'
     >
-      <Cards pic="public\Logitech-Z625-1-300x300-1.webp"
+      <Cards pic="/Logitech-Z625-1-300x300-1.webp"
             detail="Logitech Z625"
             price="Rs 14,999"
             button="Add to Cart"
     />
-      <Cards pic="public\JBL-PartyBox-110.webp"
+      <Cards pic=""
             detail="JBL PartyBox 110"
             price="Rs 24,999"
             button="Add to Cart"
     />
-          <Cards pic="public\Sony-SRS-XB13.webp"
+          <Cards pic=""
             detail="Sony SRS-XB13"
             price="Rs 6,999"
             button="Add to Cart"
     />
-        <Cards pic="public\Ultimate-Ears-Boom-3.webp"
+        <Cards pic=""
             detail="Ultimate Ears Boom 3"
             price="Rs 12,999"
             button="Add to Cart"

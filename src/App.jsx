@@ -72,8 +72,8 @@ function App() {
   <Route path='/review' element={<Review/>}/>
   <Route path='/findus' element={<FindUs/>}/>
   <Route path='/smart' element={<Smartphone/>}/>
-  <Route path='log' element={<Login/>}/>
-  <Route path='register' element={<Register/>}/>
+  <Route path='/log' element={<Login/>}/>
+  <Route path='/register' element={<Register/>}/>
   
 
   

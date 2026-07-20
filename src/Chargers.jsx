@@ -12,22 +12,22 @@ const Chargers = () => {
         </div>
     <div className='flex justify-center gap-10'
     >
-      <Cards pic="public\Ugreen-GAN-Fast-Charger-1C-20W-Black-300x300.webp"
+      <Cards pic="/Ugreen-GAN-Fast-Charger-1C-20W-Black-300x300.webp"
             detail="UGREEN GAN 20W Charger"
             price="Rs 1,999"
             button="Add to Cart"
     />
-      <Cards pic="public\Baseus-65W-GaN-Charger.webp"
+      <Cards pic=""
             detail="Baseus 65W GaN Charger"
             price="Rs 3,999"
             button="Add to Cart"
     />
-          <Cards pic="public\Anker-737-Charger.webp"
+          <Cards pic=""
             detail="Anker 737 Charger"
             price="Rs 4,499"
             button="Add to Cart"
     />
-        <Cards pic="public\Apple-USB-C-Power-Adapter.webp"
+        <Cards pic=""
             detail="Apple 20W USB-C Charger"
             price="Rs 4,999"
             button="Add to Cart"

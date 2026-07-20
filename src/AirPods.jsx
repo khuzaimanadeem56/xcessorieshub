@@ -12,22 +12,22 @@ const AirPods = () => {
         </div>
     <div className='flex justify-center gap-10'
     >
-      <Cards pic="public\Oraimo-FreePods-Lite-True-Wireless-Earbuds-OTW-330-xhb-blue-300x300.webp"
+      <Cards pic="/Oraimo-FreePods-Lite-True-Wireless-Earbuds-OTW-330-xhb-blue-300x300.webp"
             detail="Oraimo FreePods Lite"
             price="Rs 1,999"
             button="Add to Cart"
     />
-      <Cards pic="public\Redmi-Buds-8-Black-300x300.webp"
+      <Cards pic="/Redmi-Buds-8-Black-300x300.webp"
             detail="Redmi Buds 8"
             price="Rs 12,999"
             button="Add to Cart"
     />
-          <Cards pic="public\Realme-Buds-Clip-Black-300x300.webp"
+          <Cards pic="/Realme-Buds-Clip-Black-300x300.webp"
             detail="Realme Buds Clip Open Ear Wireless Earbuds"
             price="Rs 19,999"
             button="Add to Cart"
     />
-        <Cards pic="public\Realme-Buds-T500-Pro-Chocolate-300x300.webp"
+        <Cards pic="/Realme-Buds-T500-Pro-Chocolate-300x300.webp"
             detail="Realme Buds T500 Pro"
             price="Rs 15,999"
             button="Add to Cart"
@@ -38,22 +38,22 @@ const AirPods = () => {
 
     <div className='flex justify-center gap-10'
     >
-      <Cards pic="public\Xiaomi-Buds-6-1-300x300.webp"
+      <Cards pic="/Xiaomi-Buds-6-1-300x300.webp"
             detail="Xiaomi Buds 6"
             price="Rs 28,999"
             button="Add to Cart"
     />
-      <Cards pic="public\Anker-Soundcore-C40i-Black-300x300.webp"
+      <Cards pic="/Anker-Soundcore-C40i-Black-300x300.webp"
             detail="Anker Soundcore C40i Earbuds – Midnight Black"
             price="Rs 17,499"
             button="Add to Cart"
     />
-          <Cards pic="public\HOCO-EQ5-300x300.jpg"
+          <Cards pic="/HOCO-EQ5-300x300.jpg"
             detail="HOCO EQ5 Energy True Wireless Bluetooth Earbuds ANC ENC Noise Reduction"
             price="Rs 3,499"
             button="Add to Cart"
     />
-        <Cards pic="public\HOCO-EQ22-300x300.webp"
+        <Cards pic="/HOCO-EQ22-300x300.webp"
             detail="HOCO EQ22 Singer True Wireless ANC+ENC Noise Reduction Wireless BT "
             price="Rs 3,499"
             button="Add to Cart"

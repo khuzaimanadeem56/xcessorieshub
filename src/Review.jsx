@@ -10,7 +10,7 @@ const Review = () => {
         <div className="flex items-start space-x-4">
           {/* User Image */}
           <img
-            src="public\user.jpg"
+            src="/user.jpg"
             alt="User"
             className="w-12 h-12 rounded-full object-cover"
           />
@@ -48,7 +48,7 @@ const Review = () => {
       {/* Review Image */}
       <div className="mt-4">
         <img
-          src="public\Screenshot_2025-10-25-00-45-12-14_6012fa4d4ddec268fc5c7112cbb265e7-461x1024.jpg"
+          src="/Screenshot_2025-10-25-00-45-12-14_6012fa4d4ddec268fc5c7112cbb265e7-461x1024.jpg"
           alt="Review"
           className="w-24 h-24 object-cover rounded-md border"
         />
@@ -64,7 +64,7 @@ const Review = () => {
         <div className="flex items-start space-x-4">
           {/* User Image */}
           <img
-            src="public\user.jpg"
+            src="/user.jpg"
             alt="User"
             className="w-12 h-12 rounded-full object-cover"
           />
@@ -101,7 +101,7 @@ const Review = () => {
       {/* Review Image */}
       <div className="mt-4">
         <img
-          src="public\sspic.jpg"
+          src="/sspic.jpg"
           alt="Review"
           className="w-24 h-24 object-cover rounded-md border"
         />

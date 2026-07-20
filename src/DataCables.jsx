@@ -12,22 +12,22 @@ const DataCables = () => {
         </div>
     <div className='flex justify-center gap-10'
     >
-      <Cards pic="public\UGREEN-–-50567-300x300.webp"
+      <Cards pic="/UGREEN-–-50567-300x300.webp"
             detail="UGREEN USB-C Cable"
             price="Rs 899"
             button="Add to Cart"
     />
-      <Cards pic="public\Baseus-Lightning-Cable.webp"
+      <Cards pic=""
             detail="Baseus Lightning Cable"
             price="Rs 1,299"
             button="Add to Cart"
     />
-          <Cards pic="public\Anker-Micro-USB-Cable.webp"
+          <Cards pic=""
             detail="Anker Micro USB Cable"
             price="Rs 699"
             button="Add to Cart"
     />
-        <Cards pic="public\Xiaomi-USB-C-Cable.webp"
+        <Cards pic=""
             detail="Xiaomi USB-C Cable"
             price="Rs 599"
             button="Add to Cart"

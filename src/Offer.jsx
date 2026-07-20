@@ -3,12 +3,12 @@ import React from 'react'
 function Offer () {
   return (
     <div className='w-full h-250 bg-white mt-5'>
-        <img className='pt-10 py-1 px-4  rounded-[30px]  shadow-2xl' src="public\amaze_banner-scaled.webp" alt=""
+        <img className='pt-10 py-1 px-4  rounded-[30px]  shadow-2xl' src="/amaze_banner-scaled.webp" alt=""
          />
       <div className='flex items-center justify-between mt-15 px-7 py-2 gap-5'
       >
         <div className=' sm:w-1/4 h-60 bg-white rounded-[10px] shadow-md p-6 flex flex-col items-center text-center'>
-              <img className='"w-10 h-12 text-blue-800 mb-3"' src="public\purchase.webp" alt="" />
+              <img className='"w-10 h-12 text-blue-800 mb-3"' src="/purchase.webp" alt="" />
                <h3 className="font-semibold text-lg mt-2 text-gray-900">
         Express Delivery
       </h3>
@@ -17,7 +17,7 @@ function Offer () {
       </p>
  </div>
         <div className='sm:w-1/4 h-60 bg-white rounded-[10px] shadow-md p-6 flex flex-col items-center text-center'>
-              <img className='"w-10 h-12 text-blue-800 mb-3"' src="public\feedback.webp" alt="" />
+              <img className='"w-10 h-12 text-blue-800 mb-3"' src="/feedback.webp" alt="" />
                <h3 className="font-semibold text-lg mt-2 text-gray-900">
         Positive Feedback
       </h3>
@@ -26,7 +26,7 @@ function Offer () {
       </p>
 </div>
         <div className='sm:w-1/4 h-60 bg-white rounded-[10px] shadow-md p-6 flex flex-col items-center text-center'>
-              <img className='"w-10 h-12 text-blue-800 mb-3"' src="public\refresh.webp" alt="" />
+              <img className='"w-10 h-12 text-blue-800 mb-3"' src="/refresh.webp" alt="" />
                <h3 className="font-semibold text-lg mt-2 text-gray-900">
         Easy Return & Refunds
       </h3>
@@ -35,7 +35,7 @@ function Offer () {
       </p>
 </div>
        <div className='sm:w-1/4 h-60 bg-white rounded-[10px] shadow-md p-6 flex flex-col items-center text-center'>
-              <img className='"w-10 h-12 text-blue-800 mb-3"' src="public\loss.webp" alt="" />
+              <img className='"w-10 h-12 text-blue-800 mb-3"' src="/loss.webp" alt="" />
                <h3 className="font-semibold text-lg mt-2 text-gray-900">
         Cost Saving
       </h3>

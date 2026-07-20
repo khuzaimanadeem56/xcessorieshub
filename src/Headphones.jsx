@@ -12,22 +12,22 @@ const Headphones = () => {
         </div>
     <div className='flex justify-center gap-10'
     >
-      <Cards pic="public\Soundpeats-Space-Pro-300x300.webp"
+      <Cards pic="/Soundpeats-Space-Pro-300x300.webp"
             detail="Soundpeats Space Pro"
             price="Rs 4,999"
             button="Add to Cart"
     />
-      <Cards pic="public\Sony-WH-1000XM5.webp"
+      <Cards pic=""
             detail="Sony WH-1000XM5"
             price="Rs 29,999"
             button="Add to Cart"
     />
-          <Cards pic="public\Bose-QuietComfort-45.webp"
+          <Cards pic=""
             detail="Bose QuietComfort 45"
             price="Rs 24,999"
             button="Add to Cart"
     />
-        <Cards pic="public\JBL-Tune-750.webp"
+        <Cards pic=""
             detail="JBL Tune 750"
             price="Rs 8,999"
             button="Add to Cart"

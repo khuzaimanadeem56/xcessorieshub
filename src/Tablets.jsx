@@ -12,22 +12,22 @@ const Tablets = () => {
         </div>
     <div className='flex justify-center gap-10'
     >
-      <Cards pic="public\Samsung-Galaxy-Tab-S10-WiFi-with-Keyboard-Cover-300x300.webp"
+      <Cards pic="/Samsung-Galaxy-Tab-S10-WiFi-with-Keyboard-Cover-300x300.webp"
             detail="Samsung Galaxy Tab S10"
             price="Rs 89,999"
             button="Add to Cart"
     />
-      <Cards pic="public\Apple-iPad-Pro-12.9.webp"
+      <Cards pic=""
             detail="Apple iPad Pro 12.9"
             price="Rs 124,999"
             button="Add to Cart"
     />
-          <Cards pic="public\iPad-Air-M2.webp"
+          <Cards pic=""
             detail="Apple iPad Air M2"
             price="Rs 99,999"
             button="Add to Cart"
     />
-        <Cards pic="public\OnePlus-Pad.webp"
+        <Cards pic=""
             detail="OnePlus Pad"
             price="Rs 54,999"
             button="Add to Cart"

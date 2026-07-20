@@ -12,22 +12,22 @@ const PowerBanks = () => {
         </div>
     <div className='flex justify-center gap-10'
     >
-      <Cards pic="public\MCDODO-MC-5021-20000MAH-20W-MAGNETIC-WIRELESS-POWER-BANK-1-xcessorieshub-300x300-1.webp"
+      <Cards pic="/MCDODO-MC-5021-20000MAH-20W-MAGNETIC-WIRELESS-POWER-BANK-1-xcessorieshub-300x300-1.webp"
             detail="MCDODO 20000MAH Power Bank"
             price="Rs 4,999"
             button="Add to Cart"
     />
-      <Cards pic="public\Anker-PowerCore-26800.webp"
+      <Cards pic=""
             detail="Anker PowerCore 26800"
             price="Rs 7,999"
             button="Add to Cart"
     />
-          <Cards pic="public\Baseus-30000MAH-Power-Bank.webp"
+          <Cards pic=""
             detail="Baseus 30000MAH Power Bank"
             price="Rs 5,999"
             button="Add to Cart"
     />
-        <Cards pic="public\Xiaomi-Mi-Power-Bank.webp"
+        <Cards pic=""
             detail="Xiaomi Mi Power Bank 10000"
             price="Rs 3,499"
             button="Add to Cart"

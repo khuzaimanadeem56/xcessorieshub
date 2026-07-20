@@ -39,7 +39,7 @@ function Header ()  {
     </div>
 
 <div className='flex items-center space-x-5'>
-<a href="log"><button className='flex items-center text-gray-700 hover:text-blue-700 hover:scale-105'>
+<a href="/log"><button className='flex items-center text-gray-700 hover:text-blue-700 hover:scale-105'>
   <User className="w-5 h-5 mr-1" />
   <span>Login/Register</span>
     </button></a>

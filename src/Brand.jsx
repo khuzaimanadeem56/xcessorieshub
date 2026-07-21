@@ -1,74 +1,76 @@
 import React from 'react'
 
 const Brand = () => {
+  const brands = [
+    "/amezefitlogo.webp",
+    "/Screenshot-2024-05-13-at-12.32.17-AM.webp",
+    "/Screenshot-2024-06-15-at-3.44.55 PM-1536x440.png",
+    "/AMAZE-LOGO.jpg",
+    "/A4Tech-Logo-1536x337.webp",
+    "/download-45-1.webp",
+    "/amband.webp",
+    "/ankerlogo.webp",
+    "/download-14-1.webp",
+    "/download-43-1.webp",
+    "/Baseus-logo.webp",
+    "/download-47-1.webp",
+    "/Belkin_logo-1536x422.webp",
+    "/Benks_logo_5.webp",
+    "/bloody.webp",
+    "/dior.png",
+    "/dizo.webp",
+    "/dji-logo-black-and-white.png",
+    "/Dyson-logo-1536x647.webp",
+    "/earfun_logo.png",
+    "/logo-1536x327.png",
+    "/elago.webp",
+    "/download-37-1.webp",
+    "/esr_logo.webp",
+    "/fragrance-one.avif",
+    "/download-36-1.webp",
+    "/GoPro-Logo-e1743213461890.png",
+    "/download-34-2.webp",
+    "/Haylou_logo-1.webp",
+    "/Hifuture_logo-black-1536x331.webp",
+    "/download-33-1.webp",
+    "/Imilab-1-1.webp",
+    "/Insta360_logo-1536x465.png",
+    "/jabra-logo-1.webp",
+    "/jbllogo.webp",
+    "/download-58-2.webp",
+    "/samsunglogo.webp",
+    "/Oneplus_newlogo_main_1584369675960-1-1.webp",
+    "/realmelogo.webp",
+    "/metalogo.webp"
+  ];
+
   return (
-    <div className='mt-10'>
-          <div className='flex justify-between items-center px-15 w-full'>
-          <img src="/amezefitlogo.webp" className='h-20 w-40 object-cover ' />
-          <img src="/Screenshot-2024-05-13-at-12.32.17-AM.webp" className='h-20 w-40 object-center' />
-           <img src="/Screenshot-2024-06-15-at-3.44.55 PM-1536x440.png" className='h-20 w-40 object-center' />
-            <img src="/AMAZE-LOGO.jpg" className='h-20 w-40 object-cover' />
-            <img src="/A4Tech-Logo-1536x337.webp" className='h-20 w-40 object-center' />
+    <div className="w-full bg-white py-6 md:py-10">
+      {/* Title */}
+      <div className="max-w-7xl mx-auto px-4 md:px-8 mb-8 text-center">
+        <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl text-gray-850 tracking-tight">Our Authorized Brands</h1>
+        <p className="mt-2 text-sm text-gray-500 font-semibold">We partner with top-tier technology manufacturers to bring you 100% original premium accessories.</p>
+      </div>
+
+      {/* Grid */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6 px-4 md:px-8 max-w-7xl mx-auto mb-10">
+        {brands.map((logo, idx) => (
+          <div 
+            key={idx}
+            className="w-full h-24 border border-gray-100 rounded-2xl flex justify-center items-center p-4 bg-white shadow-sm hover:shadow-md hover:border-gray-200 transition-all duration-300"
+          >
+            <img 
+              src={logo} 
+              alt={`Brand Logo ${idx}`} 
+              className="max-h-full max-w-full object-contain hover:scale-105 transition-transform duration-200" 
+              loading="lazy"
+            />
           </div>
-
- <div className='flex justify-between items-center px-15 w-full mt-10'>
-          <img src="/download-45-1.webp" className='h-20 w-40 object-cover ' />
-          <img src="/amband.webp" className='h-20 w-40 object-cover' />
-           <img src="/ankerlogo.webp" className='h-20 w-40 object-cover' />
-            <img src="/download-14-1.webp" className='h-20 w-40 object-center' />
-            <img src="/download-43-1.webp" className='h-20 w-40 object-cover' />
-</div>  
-
- <div className='flex justify-between items-center px-15 w-full mt-10'>
-          <img src="/Baseus-logo.webp" className='h-20 w-40 object-center ' />
-          <img src="/download-47-1.webp" className='h-20 w-40 object-center' />
-           <img src="/Belkin_logo-1536x422.webp" className='h-20 w-40 object-center' />
-            <img src="/Benks_logo_5.webp" className='h-20 w-40 object-center' />
-            <img src="/bloody.webp" className='h-20 w-40 object-center' />
-</div> 
-
- <div className='flex justify-between items-center px-15 w-full mt-10'>
-          <img src="/dior.png" className='h-20 w-40 object-cover ' />
-          <img src="/dizo.webp" className='h-20 w-40 object-center' />
-           <img src="/dji-logo-black-and-white.png" className='h-20 w-40 object-center' />
-            <img src="/Dyson-logo-1536x647.webp" className='h-20 w-40 object-center' />
-            <img src="/earfun_logo.png" className='h-20 w-40 object-center' />
-</div> 
-
- <div className='flex justify-between items-center px-15 w-full mt-10'>
-          <img src="/logo-1536x327.png" className='h-20 w-40 object-center ' />
-          <img src="/elago.webp" className='h-20 w-40 object-cover' />
-           <img src="/download-37-1.webp" className='h-20 w-40 object-cover' />
-            <img src="/esr_logo.webp" className='h-20 w-40 object-center' />
-            <img src="/fragrance-one.avif" className='h-20 w-40 object-center' />
-</div> 
-
- <div className='flex justify-between items-center px-15 w-full mt-10'>
-          <img src="/download-36-1.webp" className='h-20 w-40 object-cover ' />
-          <img src="/GoPro-Logo-e1743213461890.png" className='h-20 w-40 object-center' />
-           <img src="/download-34-2.webp" className='h-20 w-40 object-cover' />
-            <img src="/Haylou_logo-1.webp" className='h-20 w-40 object-center' />
-            <img src="/Hifuture_logo-black-1536x331.webp" className='h-20 w-40 object-center' />
-</div> 
-
- <div className='flex justify-between items-center px-15 w-full mt-10'>
-          <img src="/download-33-1.webp" className='h-20 w-40 object-center ' />
-          <img src="/Imilab-1-1.webp" className='h-20 w-40 object-cover' />
-           <img src="/Insta360_logo-1536x465.png" className='h-20 w-40 object-center' />
-            <img src="/jabra-logo-1.webp" className='h-20 w-40 object-center' />
-            <img src="/jbllogo.webp" className='h-20 w-40 object-center' />
-</div> 
-
- <div className='flex justify-between items-center px-15 w-full mt-10 mb-10'>
-          <img src="/download-58-2.webp" className='h-20 w-40 object-center ' />
-          <img src="/samsunglogo.webp" className='h-20 w-40 object-center' />
-           <img src="/Oneplus_newlogo_main_1584369675960-1-1.webp" className='h-20 w-40 object-center' />
-            <img src="/realmelogo.webp" className='h-20 w-40 object-center' />
-            <img src="/metalogo.webp" className='h-20 w-40 object-center' />
-</div> 
+        ))}
+      </div>
     </div>
   )
 }
 
-export default Brand
+export default Brand;
 

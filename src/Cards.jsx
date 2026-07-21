@@ -1,34 +1,49 @@
 import React from 'react'
 
-
-const Cards = ({pic,detail,price,button}) => {
+const Cards = ({ pic, detail, price, button, onAddToCart }) => {
   const imageSrc = pic || 'data:image/gif;base64,R0lGODlhAQABAAAAACw=';
-  return (
-    <>
-    <div className='mt-13'>
-               <div className="w-65 h-105 bg-white p-2 rounded-lg shadow-md hover:shadow-2xl transition-shadow relative  hover:scale-105 text-center">
-  
 
-  
-  <img src={imageSrc} alt={detail || "Product image"} className="w-45 h-55 mx-auto object-contain" />
-<div className='w-60 h-15 border-amber-950 text-center'>
-  
-  <h3 className="mt-4 text-lg font-semibold text-slate-800 leading-tight">
-    {detail}
-  </h3>
-  </div>
-<div>
-  <p className="mt-4 text-base font-semibold  text-shadow-blue-950">{price}</p>
-</div>
-  
-  <button className="mt-5 bg-blue-900 text-white text-sm font-semibold py-3 px-8 rounded-full hover:bg-blue-800 transition">
-    {button}
-  </button>
-</div>
+  const handleCartClick = (e) => {
+    e.preventDefault();
+    if (onAddToCart) {
+      onAddToCart({ pic, detail, price });
+    }
+  };
+
+  return (
+    <div className="bg-white p-4 rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between h-[390px] w-full text-center relative group">
+      
+      {/* Product Image */}
+      <div className="relative flex items-center justify-center h-44 w-full bg-gray-50/50 rounded-xl p-2 overflow-hidden mb-3">
+        <img 
+          src={imageSrc} 
+          alt={detail || "Product image"} 
+          className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300" 
+          loading="lazy"
+        />
+      </div>
+
+      {/* Product Title */}
+      <div className="flex-1 flex items-center justify-center px-1">
+        <h3 className="text-sm sm:text-base font-bold text-gray-800 leading-snug line-clamp-2 max-h-12 overflow-hidden">
+          {detail}
+        </h3>
+      </div>
+
+      {/* Pricing & CTA */}
+      <div className="mt-2.5">
+        <p className="text-base sm:text-lg font-extrabold text-blue-900 tracking-tight">{price}</p>
+        
+        <button 
+          onClick={handleCartClick}
+          className="mt-3.5 w-full bg-blue-900 text-white hover:bg-blue-800 active:scale-95 text-xs sm:text-sm font-bold py-2.5 px-4 rounded-full shadow-sm hover:shadow transition duration-200 min-h-[44px]"
+        >
+          {button || "Add to Cart"}
+        </button>
+      </div>
 
     </div>
-    </>
-  )
+  );
 }
 
-export default Cards
+export default Cards;

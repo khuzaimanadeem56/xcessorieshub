@@ -1,3 +1,5 @@
+import React from 'react'
+
 const Login = () => {
   return (
    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-100 via-amber-50 to-white px-4">

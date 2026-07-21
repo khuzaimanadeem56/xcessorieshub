@@ -2,68 +2,38 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Showbar ()  {
-  return (
-    <div className=''>
-       <div className='flex justify-center w-full h-30 bg-white gap-10  shadow-md'>
-      <Link to="/smartphones" className='w-24 h-25 shadow-md hover:shadow-2xl transition-shadow hover:scale-105 cursor-pointer'>
-        <img className=' w-22 h-20' src="/Apple-iPhone-16-Ultramarine.webp" />
-        <div className='w-20 text-center '>
-        <h3 className='text-center text-sm font-medium text-gray-800 '>SmartPhones</h3>
-        </div>
-      </Link>
-      <Link to="/airpods" className='w-24 h-25 shadow-md hover:shadow-2xl transition-shadow hover:scale-105 cursor-pointer'>
-        <img className='w-22 h-20' src="/Oraimo-FreePods-Lite-True-Wireless-Earbuds-OTW-330-xhb-blue-300x300.webp" alt="" />
-       <div className='w-20 text-center '>
-        <h3 className='text-center text-sm font-medium text-gray-800'>AirPods</h3>
-        </div>
-      </Link>
-      <Link to="/smartwatches" className='w-24 h-25 shadow-md hover:shadow-2xl transition-shadow hover:scale-105 cursor-pointer'>
-        <img className='w-22 h-20' src="/Mibro-Watch-C4-300x300.webp" alt="" />
-        <div className='w-20 text-center '>
-        <h3 className='text-center text-sm font-medium text-gray-800'>SmartWatches</h3>
-        </div>
-      </Link>
-      <Link to="/powerbanks" className='w-24 h-25 shadow-md hover:shadow-2xl transition-shadow hover:scale-105 cursor-pointer'>
-        <img className='w-22 h-20' src="/MCDODO-MC-5021-20000MAH-20W-MAGNETIC-WIRELESS-POWER-BANK-1-xcessorieshub-300x300-1.webp" alt="" />
-       <div className='w-20 text-center '>
-        <h3 className=' text-sm font-medium text-gray-800'>PowerBanks</h3>
-      </div>
-      </Link>
-      <Link to="/datacables" className='w-24 h-25 shadow-md hover:shadow-2xl transition-shadow hover:scale-105 cursor-pointer'>
-        <img className='w-22 h-20' src="/UGREEN-–-50567-300x300.webp" alt="" />
-        <div className='w-20 text-center '>
-        <h3 className=' text-sm font-medium text-gray-800'>DataCables</h3>
-     </div>
-      </Link>
-     <Link to="/headphones" className='w-24 h-25 shadow-md hover:shadow-2xl transition-shadow hover:scale-105 cursor-pointer'>
-        <img className='w-22 h-20' src="/Soundpeats-Space-Pro-300x300.webp" alt="" />
-        <div className='w-20 text-center '>
-        <h3 className=' text-sm font-medium text-gray-800'>Headphones</h3>
-      </div>
-      </Link>
-      <Link to="/speakers" className='w-24 h-25 shadow-md hover:shadow-2xl transition-shadow hover:scale-105 cursor-pointer'>
-        <img className='w-22 h-20' src="/Logitech-Z625-1-300x300-1.webp" alt="" />
-        <div className='w-20 text-center '>
-        <h3 className=' text-sm font-medium text-gray-800'>Speakers</h3>
-        </div>
-      </Link>
-      <Link to="/tablets" className='w-24 h-25 shadow-md hover:shadow-2xl transition-shadow hover:scale-105 cursor-pointer'>
-        <img className='w-22 h-20' src="/Samsung-Galaxy-Tab-S10-WiFi-with-Keyboard-Cover-300x300.webp" alt="" />
-        <div className='w-20 text-center '>
-        <h3 className='text-sm font-medium text-gray-800'>Tablets</h3>
-        </div>
-      </Link>
-      <Link to="/chargers" className='w-24 h-25 shadow-md hover:shadow-2xl transition-shadow hover:scale-105 cursor-pointer'>
-        <img className='w-22 h-20' src="/Ugreen-GAN-Fast-Charger-1C-20W-Black-300x300.webp" alt="" />
-        <div className='w-20 text-center '>
-        <h3 className='text-sm font-medium text-gray-800'>Chargers</h3>
-      </div>
-      </Link>
-      </div>
-      
-</div>
+  const categories = [
+    { name: 'Smartphones', path: '/smartphones', img: '/Apple-iPhone-16-Ultramarine.webp' },
+    { name: 'AirPods', path: '/airpods', img: '/Oraimo-FreePods-Lite-True-Wireless-Earbuds-OTW-330-xhb-blue-300x300.webp' },
+    { name: 'SmartWatches', path: '/smartwatches', img: '/Mibro-Watch-C4-300x300.webp' },
+    { name: 'PowerBanks', path: '/powerbanks', img: '/MCDODO-MC-5021-20000MAH-20W-MAGNETIC-WIRELESS-POWER-BANK-1-xcessorieshub-300x300-1.webp' },
+    { name: 'DataCables', path: '/datacables', img: '/UGREEN-–-50567-300x300.webp' },
+    { name: 'Headphones', path: '/headphones', img: '/Soundpeats-Space-Pro-300x300.webp' },
+    { name: 'Speakers', path: '/speakers', img: '/Logitech-Z625-1-300x300-1.webp' },
+    { name: 'Tablets', path: '/tablets', img: '/Samsung-Galaxy-Tab-S10-WiFi-with-Keyboard-Cover-300x300.webp' },
+    { name: 'Chargers', path: '/chargers', img: '/Ugreen-GAN-Fast-Charger-1C-20W-Black-300x300.webp' }
+  ];
 
+  return (
+    <div className="bg-white border-b border-gray-100 shadow-sm w-full overflow-hidden">
+      <div className="flex overflow-x-auto scrollbar-none py-5 px-4 md:px-8 gap-5 md:justify-center items-center w-full">
+        {categories.map((cat, i) => (
+          <Link 
+            key={i}
+            to={cat.path} 
+            className="flex-shrink-0 flex flex-col items-center justify-between w-22 h-24 p-2 bg-white rounded-xl border border-gray-100 hover:border-blue-900 shadow-sm hover:shadow-md transition-all duration-200 active:scale-95 cursor-pointer text-center group"
+          >
+            <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-gray-50 group-hover:bg-blue-50 transition-colors p-1">
+              <img className="max-h-full max-w-full object-contain" src={cat.img} alt={cat.name} />
+            </div>
+            <span className="text-[11px] font-bold text-gray-700 tracking-tight leading-tight group-hover:text-blue-900 transition-colors">
+              {cat.name}
+            </span>
+          </Link>
+        ))}
+      </div>
+    </div>
   )
 }
 
-export default Showbar
+export default Showbar;

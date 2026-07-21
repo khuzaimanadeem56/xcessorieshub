@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Header from './Header';
 import Showbar from './Showbar';
@@ -27,6 +27,7 @@ import DataCables from './DataCables';
 import Speakers from './Speakers';
 import Tablets from './Tablets';
 import Chargers from './Chargers';
+import CartDrawer from './CartDrawer';
 
 
 
@@ -38,40 +39,54 @@ import Chargers from './Chargers';
 
 
 function App() {
+  const [cart, setCart] = useState([]);
+  const [isCartOpen, setIsCartOpen] = useState(false);
+
+  const handleAddToCart = (product) => {
+    setCart(prev => {
+      const existing = prev.find(item => item.detail === product.detail);
+      if (existing) {
+        return prev.map(item => item.detail === product.detail ? { ...item, quantity: item.quantity + 1 } : item);
+      }
+      return [...prev, { ...product, id: Date.now().toString() + Math.random().toString(36).substr(2, 5), quantity: 1 }];
+    });
+    setIsCartOpen(true);
+  };
+
   return (
     <>
    
 <BrowserRouter>
-      <Header />
+      <Header cart={cart} setIsCartOpen={setIsCartOpen} />
       <Navbar/>
 <Routes>
   <Route path='/' element={
     <> 
       <Showbar/>
        <Offer/>
-       <Sell/>
+       <Sell onAddToCart={handleAddToCart} />
        <Say/>
-      <Mobiles/>
-      <HeadphonesHome/>
+      <Mobiles onAddToCart={handleAddToCart} />
+      <HeadphonesHome onAddToCart={handleAddToCart} />
        <Pdeal/>  
       <Sbrand/>
 </>
 
   }/>
-  <Route path='/smartphones' element={<Smartphone/>}/>
-  <Route path='/airpods' element={<AirPods/>}/>
-  <Route path='/smartwatches' element={<SmartWatches/>}/>
-  <Route path='/powerbanks' element={<PowerBanks/>}/>
-  <Route path='/datacables' element={<DataCables/>}/>
-  <Route path='/headphones' element={<Headphones/>}/>
-  <Route path='/speakers' element={<Speakers/>}/>
-  <Route path='/tablets' element={<Tablets/>}/>
-  <Route path='/chargers' element={<Chargers/>}/>
-  <Route path='/explorexhb' element={<ExploreXhb/>}/>
+  <Route path='/smartphones' element={<Smartphone onAddToCart={handleAddToCart} />}/>
+  <Route path='/airpods' element={<AirPods onAddToCart={handleAddToCart} />}/>
+  <Route path='/smartwatches' element={<SmartWatches onAddToCart={handleAddToCart} />}/>
+  <Route path='/powerbanks' element={<PowerBanks onAddToCart={handleAddToCart} />}/>
+  <Route path='/datacables' element={<DataCables onAddToCart={handleAddToCart} />}/>
+  <Route path='/headphones' element={<Headphones onAddToCart={handleAddToCart} />}/>
+  <Route path='/speakers' element={<Speakers onAddToCart={handleAddToCart} />}/>
+  <Route path='/tablets' element={<Tablets onAddToCart={handleAddToCart} />}/>
+  <Route path='/chargers' element={<Chargers onAddToCart={handleAddToCart} />}/>
+  <Route path='/explorexhb' element={<ExploreXhb onAddToCart={handleAddToCart} />}/>
   <Route path='/brand' element={<Brand/>}/>
   <Route path='/review' element={<Review/>}/>
   <Route path='/findus' element={<FindUs/>}/>
-  <Route path='/smart' element={<Smartphone/>}/>
+  <Route path='/smart' element={<Smartphone onAddToCart={handleAddToCart} />}/>
   <Route path='/log' element={<Login/>}/>
   <Route path='/register' element={<Register/>}/>
   
@@ -81,6 +96,12 @@ function App() {
 </Routes>
 <Footer/>
 
+<CartDrawer 
+          isOpen={isCartOpen} 
+          onClose={() => setIsCartOpen(false)} 
+          cart={cart} 
+          setCart={setCart} 
+        />
 </BrowserRouter>
 
             

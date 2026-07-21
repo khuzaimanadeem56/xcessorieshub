@@ -1,44 +1,39 @@
 import React from 'react'
 
 const Pdeal = () => {
+  const deals = [
+    "Under Rs. 5,000",
+    "Rs. 5,000 – Rs. 20,000",
+    "Rs. 20,000 – Rs. 30,000",
+    "Rs. 30,000 – Rs. 50,000",
+    "Rs. 50,000 – Rs. 75,000",
+    "Rs. 75,000 – Rs. 100,000",
+    "Rs. 100,000 – Rs. 200,000",
+    "Above Rs. 200,000"
+  ];
+
   return (
-    <div className='mt-15'>
-           <div className='flex justify-center items-center text-center'>
-        <h1 className='font-bold text-5xl text-slate-800'>Shop By Price – Find Your Perfect Deal</h1>
- </div>
-        <div class="flex flex-wrap items-center gap-3 mt-8 p-2 bg-white">
-  <button class="w-80 h-15 border-2 border-[#0B416B] text-[#0B416B] font-semibold rounded-md hover:bg-[#0B416B] hover:text-white transition">
-    Under Rs. 5,000
-  </button>
-    <button class="w-80 h-15 border-2 border-[#0B416B] text-[#0B416B] font-semibold rounded-md hover:bg-[#0B416B] hover:text-white transition">
-    Rs. 5,000 – Rs. 20,000
-  </button>
-    <button class="w-80 h-15 border-2 border-[#0B416B] text-[#0B416B] font-semibold rounded-md hover:bg-[#0B416B] hover:text-white transition">
-    Rs. 20,000 – Rs. 30,000
-  </button>
-  <button class="w-80 h-15 border-2 border-[#0B416B] text-[#0B416B] font-semibold rounded-md hover:bg-[#0B416B] hover:text-white transition">
-    Rs. 30,000 – Rs. 50,000
-  </button>
+    <div className="w-full bg-white mt-12 md:mt-16 px-4 md:px-8 max-w-7xl mx-auto">
+      {/* Title */}
+      <div className="text-center">
+        <h2 className="font-extrabold text-2xl sm:text-3xl md:text-4xl text-gray-850 tracking-tight leading-tight">
+          Shop By Price – Find Your Perfect Deal
+        </h2>
+      </div>
 
-  </div>
-
-        <div class="flex flex-wrap items-center gap-3 mt-1 p-2 bg-white">
-  <button class="w-80 h-15 border-2 border-[#0B416B] text-[#0B416B] font-semibold rounded-md hover:bg-[#0B416B] hover:text-white transition">
-    Rs. 50,000 – Rs. 75,000
-  </button>
-    <button class="w-80 h-15 border-2 border-[#0B416B] text-[#0B416B] font-semibold rounded-md hover:bg-[#0B416B] hover:text-white transition">
-    Rs. 75,000 – Rs. 100,000
-  </button>
-    <button class="w-80 h-15 border-2 border-[#0B416B] text-[#0B416B] font-semibold rounded-md hover:bg-[#0B416B] hover:text-white transition">
-    Rs. 100,000 – Rs. 200,000
-  </button>
-  <button class="w-80 h-15 border-2 border-[#0B416B] text-[#0B416B] font-semibold rounded-md hover:bg-[#0B416B] hover:text-white transition">
-    Above Rs. 200,000 
-  </button>
-
-  </div>
+      {/* Buttons Grid */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 mt-8">
+        {deals.map((deal, idx) => (
+          <button 
+            key={idx}
+            className="w-full min-h-[50px] sm:min-h-[60px] flex items-center justify-center text-xs sm:text-sm font-bold border-2 border-blue-900 text-blue-900 rounded-xl hover:bg-blue-900 hover:text-white active:scale-[0.97] transition-all duration-200 shadow-sm cursor-pointer px-3 text-center"
+          >
+            {deal}
+          </button>
+        ))}
+      </div>
     </div>
   )
 }
 
-export default Pdeal
+export default Pdeal;
